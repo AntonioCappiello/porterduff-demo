@@ -27,7 +27,7 @@
         android:layout_height="180dp"
         android:textStyle="bold"
         android:padding="20dp"
-        android:text="WITH IMAGE\n\n(This option will be available with the next blog post)"
+        android:text="WITH IMAGE"
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginLeft="25dp"

@@ -19,11 +19,11 @@ public class IntroActivity extends AppCompatActivity{
 
     @OnClick(R.id.demoWithColorFilter)
     public void showDemoWithColorFilter(View view){
-        startActivity(new Intent(this, ColorFilterActivity.class));
+        startActivity(new Intent(this, PorterDuffWithColorFilterActivity.class));
     }
 
     @OnClick(R.id.demoWithImage)
     public void showDemoWithImage(View view){
-        //TODO next blog post
+        startActivity(new Intent(this, PorterDuffWithImageActivity.class));
     }
 }

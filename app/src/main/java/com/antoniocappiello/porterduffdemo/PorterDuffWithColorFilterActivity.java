@@ -23,7 +23,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class ColorFilterActivity extends AppCompatActivity {
+public class PorterDuffWithColorFilterActivity extends AppCompatActivity {
 
     private static final int SEEK_BAR_MAX = 100;
 
@@ -67,7 +67,7 @@ public class ColorFilterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_porter_duff_with_color_filter);
         ButterKnife.bind(this);
         initSeekBarAlpha();
         initSpinnerPorterDuff();
